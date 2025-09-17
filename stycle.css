@@ -1,0 +1,68 @@
+.main1{
+   display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main{
+  width: 50rem;
+  height: 23rem;
+  margin-top: 8rem;
+  /* background-color: black; */
+  background-color: antiquewhite;
+  /* box-shadow: 4px 4px 10px rgba(0,0,0,0.2); */
+  box-shadow:  gray 0px 0px 3px 3px ;
+ 
+}
+
+.row-1,
+.row-2,
+.row-3,
+.row-4,
+.row-5,
+ .row-6 {
+  display: flex;
+    align-items: center;
+    justify-content: center;
+     gap: 0.5rem;
+     margin:1rem;
+      
+      /* color: white; */
+}
+.row-1 div,
+.row-2 div,
+.row-3 div,
+.row-4 div,
+.row-5 div,
+ .row-6 div{
+  height: 2.5rem;
+  width: 4rem;
+  border: 1px solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: #36363D; */
+   background-color: antiquewhite;
+   box-shadow:  gray 0px 0px 1px 1px ;
+  /* color: white; */
+}
+ .row-6 .sp{
+  width: 20rem;
+  height: 3rem;
+  border: 1px solid black;
+}
+
+.id{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+}
+input{
+width: 25rem;
+height: 3rem;
+padding-left: 2rem;
+}
+.row-2 #backspace,
+.row-4 #capslock{
+  width: 8rem;
+}
